@@ -41,7 +41,7 @@
         <Compile Include="Account.cs" />
         <Compile Include="Card.cs" />
         <Compile Include="Interfaces\ICredit.cs" />
-        <Compile Include="Interfaces\INoNigative.cs" />
+        <Compile Include="Interfaces\IDebit.cs" />
         <Compile Include="Interfaces\IUseLimet.cs" />
         <Compile Include="Maestro.cs" />
         <Compile Include="Mastercard.cs" />

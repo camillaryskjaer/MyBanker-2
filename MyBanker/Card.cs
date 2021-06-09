@@ -11,27 +11,41 @@ namespace MyBanker
         private DateTime paymentDay;
         private int prefix;
 
-        public int Prefix
+        public bool InternationalUse
         {
-            get { return prefix; }
-            set { prefix = value; }
+            get { return internationalUse; }
+            set { internationalUse = value; }
         }
 
+        public DateTime IssuedDate
+        {
+            get { return issuedDate; }
+            set { issuedDate = value; }
+        }
         public string CardNumber
         {
             get { return cardNumber; }
             set { cardNumber = value; }
         }
-        
-
-        public Card(string name, int age, int accountNumber, int balance, bool internationalUse, DateTime issuedDate, DateTime paymentDay) : base(name, age, accountNumber, balance)
+        public int AgeLimit
         {
-            this.internationalUse = internationalUse;
-            this.issuedDate = issuedDate;
-            
-            this.paymentDay = paymentDay;
+            get { return ageLimit; }
+            set { ageLimit = value; }
         }
-
+        public DateTime PaymentDay
+        {
+            get { return paymentDay; }
+            set { paymentDay = value; }
+        }
+        public int Prefix
+        {
+            get { return prefix; }
+            set { prefix = value; }
+        }
+        public Card(string name, int age) : base(name, age)
+        {
+            
+        }
         public void CreateCardNumber(int length)
         {
             Random random = new Random();

@@ -6,8 +6,8 @@ namespace MyBanker
     {
         public static void Main(string[] args)
         {
-            Card anne = new WithDraw("anne", 20, 1, 1, false, DateTime.Now, DateTime.Today);
-            Console.WriteLine();
+            Card anne = new WithDraw("anne", 22);
+            Console.WriteLine(anne.CardNumber);
         }
     }
 }

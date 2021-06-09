@@ -1,6 +1,6 @@
 namespace MyBanker
 {
-    public interface INoNigative
+    public interface IDebit
     {
         bool NoCredit();
     }
