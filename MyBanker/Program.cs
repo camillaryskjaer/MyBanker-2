@@ -19,6 +19,9 @@ namespace MyBanker
             
             Console.WriteLine("Cardnumber visaDk: " + visaDk.CardNumber);
             Console.WriteLine("Accountnumber visaDk: " + visaDk.AccountNumber);
+            
+            Console.WriteLine("Cardnumber mastercard: " + mastercard.CardNumber);
+            Console.WriteLine("Accountnumber mastercard: " + mastercard.AccountNumber);
         }
     }
 }
