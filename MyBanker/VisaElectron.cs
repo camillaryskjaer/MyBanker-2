@@ -4,8 +4,22 @@ namespace MyBanker
 {
     public class VisaElectron : Card, IUseLimet
     {
+        private int[] preFixArray = {4026, 417500, 4508, 4844, 4913, 4917};
+        private Random random = new Random();
         public VisaElectron(string name, int age) : base(name, age)
         {
+            int container = random.Next(preFixArray.Length);
+            Prefix = preFixArray[container];
+            Console.WriteLine("test " + Prefix);
+
+            if (Prefix < 417500)
+            {
+                CreateCardNumber(12);
+            }
+            else
+            {
+                CreateCardNumber(9);
+            }
             
         }
         

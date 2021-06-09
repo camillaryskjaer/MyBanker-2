@@ -22,6 +22,9 @@ namespace MyBanker
             
             Console.WriteLine("Cardnumber mastercard: " + mastercard.CardNumber);
             Console.WriteLine("Accountnumber mastercard: " + mastercard.AccountNumber);
+            
+            Console.WriteLine("Cardnumber visaElectron: " + visaElectron.CardNumber);
+            Console.WriteLine("Accountnumber visaElectron: " + visaElectron.AccountNumber);
         }
     }
 }
