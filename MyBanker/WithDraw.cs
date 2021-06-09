@@ -11,7 +11,7 @@ namespace MyBanker
             CreateCardNumber(12);
         }
         
-        //implemented (not written) methode from interface
+        //implemented (not written) methode from interface: IDebit
         public bool NoCredit()
         {
             throw new NotImplementedException();

@@ -2,6 +2,7 @@ using System;
 
 namespace MyBanker
 {
+    //Subclass to the superclass: account
     public class Card : Account
     {
         private bool internationalUse;
@@ -11,6 +12,7 @@ namespace MyBanker
         private DateTime paymentDay;
         private int prefix;
 
+        //incapsulation
         public bool InternationalUse
         {
             get { return internationalUse; }
@@ -42,10 +44,14 @@ namespace MyBanker
             get { return prefix; }
             set { prefix = value; }
         }
+        
+        //constructor
         public Card(string name, int age) : base(name, age)
         {
             
         }
+        
+        //Methode for creating a new cardnumber
         public void CreateCardNumber(int length)
         {
             Random random = new Random();

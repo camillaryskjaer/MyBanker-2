@@ -5,11 +5,14 @@ namespace MyBanker
         private string name;
         private int age;
 
+        //constructor
         public User(string name, int age)
         {
             this.name = name;
             this.age = age;
         }
+        
+        //incapsulation
         public string Name
         {
             get { return name; }

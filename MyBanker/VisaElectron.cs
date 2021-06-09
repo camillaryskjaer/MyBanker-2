@@ -8,11 +8,11 @@ namespace MyBanker
         {
             
         }
+        
+        //implementet (not written) methode from the interface: IUseLimit
         public int SpendLimit()
         {
             throw new NotImplementedException();
         }
-
-        
     }
 }

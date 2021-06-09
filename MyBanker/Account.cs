@@ -2,16 +2,21 @@ using System;
 
 namespace MyBanker
 {
+    //subclass to the superclass: User
     public class Account : User
     {
         private string accountNumber;
         private int balance;
         private int reg;
+        
+        //Constructor
         public Account(string name, int age) : base(name, age)
         {
             Reg = 3520;
             CreateAccountNumber();
         }
+        
+        //incapsulation
         public string AccountNumber
         {
             get { return accountNumber; }
