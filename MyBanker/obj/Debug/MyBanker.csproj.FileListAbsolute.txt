@@ -1,0 +1,6 @@
+/Users/caku/Documents/Skole/h2/SOLID/MyBanker/MyBanker/bin/Debug/MyBanker.exe
+/Users/caku/Documents/Skole/h2/SOLID/MyBanker/MyBanker/bin/Debug/MyBanker.pdb
+/Users/caku/Documents/Skole/h2/SOLID/MyBanker/MyBanker/obj/Debug/MyBanker.csprojAssemblyReference.cache
+/Users/caku/Documents/Skole/h2/SOLID/MyBanker/MyBanker/obj/Debug/MyBanker.csproj.CoreCompileInputs.cache
+/Users/caku/Documents/Skole/h2/SOLID/MyBanker/MyBanker/obj/Debug/MyBanker.exe
+/Users/caku/Documents/Skole/h2/SOLID/MyBanker/MyBanker/obj/Debug/MyBanker.pdb
