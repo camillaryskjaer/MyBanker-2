@@ -8,11 +8,11 @@ namespace MyBanker
         {
             
         }
-        
+
+
         public bool NoCredit()
         {
-            return true;
+            throw new NotImplementedException();
         }
-        
     }
 }
