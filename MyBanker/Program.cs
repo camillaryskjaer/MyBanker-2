@@ -14,8 +14,11 @@ namespace MyBanker
             Card visaElectron = new VisaElectron("Jens", 30);
             
             //Confirming that my objects works an that they are able of creating both accountnumbers and cardnumbers
-            Console.WriteLine("Cardnumber: " + withDraw.CardNumber);
-            Console.WriteLine("Accountnumber: " + withDraw.AccountNumber);
+            Console.WriteLine("Cardnumber withDraw: " + withDraw.CardNumber);
+            Console.WriteLine("Accountnumber withDraw: " + withDraw.AccountNumber);
+            
+            Console.WriteLine("Cardnumber visaDk: " + visaDk.CardNumber);
+            Console.WriteLine("Accountnumber visaDk: " + visaDk.AccountNumber);
         }
     }
 }

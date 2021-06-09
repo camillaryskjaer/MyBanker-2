@@ -7,6 +7,8 @@ namespace MyBanker
         //constructor
         public VisaDK(string name, int age) : base(name, age)
         {
+            Prefix = 4;
+            CreateCardNumber(15);
         }
         
         //implementet (not written) methode from the interface: IUseLimit
