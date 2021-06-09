@@ -10,7 +10,7 @@ namespace MyBanker
         {
             int container = random.Next(preFixArray.Length);
             Prefix = preFixArray[container];
-            Console.WriteLine("test " + Prefix);
+            //Console.WriteLine("test " + Prefix);
 
             if (Prefix < 417500)
             {

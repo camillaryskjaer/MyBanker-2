@@ -13,7 +13,7 @@ namespace MyBanker
             Card visaDk = new VisaDK("Lis", 52);
             Card visaElectron = new VisaElectron("Jens", 30);
             
-            //Confirming that my objects works an that they are able of creating both accountnumbers and cardnumbers
+            //Confirming that my objects works and that they are able of creating both accountnumbers and cardnumbers
             Console.WriteLine("Cardnumber withDraw: " + withDraw.CardNumber);
             Console.WriteLine("Accountnumber withDraw: " + withDraw.AccountNumber);
             
@@ -25,6 +25,9 @@ namespace MyBanker
             
             Console.WriteLine("Cardnumber visaElectron: " + visaElectron.CardNumber);
             Console.WriteLine("Accountnumber visaElectron: " + visaElectron.AccountNumber);
+            
+            Console.WriteLine("Cardnumber maestro: " + maestro.CardNumber);
+            Console.WriteLine("Accountnumber maestro: " + maestro.AccountNumber);
         }
     }
 }
