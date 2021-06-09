@@ -10,7 +10,7 @@ namespace MyBanker
         public Account(string name, int age) : base(name, age)
         {
             Reg = 3520;
-            CreateAccountNumber(10);
+            CreateAccountNumber();
         }
         public string AccountNumber
         {
@@ -28,12 +28,17 @@ namespace MyBanker
             set { reg = value; }
         }
         
-        public void CreateAccountNumber(int length)
+        //Creating a new account number
+        public void CreateAccountNumber()
         {
+            //making a random function
             Random random = new Random();
+            
+            //initialising that account number contains my prefixed registation number
             string accountNumber = reg.ToString();
 
-            for (int i = 0; i < length; i++)
+            //adding a randome number to the account number as long the account number is shorter than 10
+            for (int i = 0; i < 10; i++)
             {
                 accountNumber += random.Next(0, 9);
             }
